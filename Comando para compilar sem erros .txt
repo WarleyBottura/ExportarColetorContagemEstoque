@@ -1,0 +1,22 @@
+py -3.11 -m PyInstaller `
+  --onefile `
+  --console `
+  --strip `
+  --upx-dir "C:\upx" `
+  --icon .\icone.ico `
+  --name ExportadorContagem_dbg `
+  --exclude-module matplotlib `
+  --exclude-module pandas.tests `
+  --exclude-module numpy.random._examples `
+  --exclude-module numpy.testing `
+  --exclude-module numba `
+  --exclude-module llvmlite `
+  --exclude-module tbb `
+  --exclude-module tbb4py `
+  --clean `
+  --upx-exclude "libssl-3.dll" `
+  --upx-exclude "libcrypto-3.dll" `
+  --upx-exclude "ucrtbase.dll" `
+  --upx-exclude "VCRUNTIME140.dll" `
+  --upx-exclude "VCRUNTIME140_1.dll" `
+  .\Exportador_contagem_Ver2.1.py
