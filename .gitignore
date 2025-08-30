@@ -1,0 +1,72 @@
+# ==========================
+# Arquivos de sistema
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+
+# ==========================
+# Logs e backups
+# ==========================
+*.log
+*.bak
+*.tmp
+*.swp
+
+# ==========================
+# Ambientes virtuais
+# ==========================
+.env
+.venv
+venv/
+ENV/
+env/
+*.sqlite3
+
+# ==========================
+# Pastas de build/distribuição
+# ==========================
+build/
+dist/
+*.spec
+
+# ==========================
+# Arquivos de IDEs
+# ==========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================
+# Arquivos grandes de build
+# ==========================
+*.pkg
+*.msi
+*.exe
+
+# ==========================
+# Arquivos descontinuados/olds
+# ==========================
+olds/
+.olds/
+OLDS/
+.OLDS/
+
+
+
+# ==========================
